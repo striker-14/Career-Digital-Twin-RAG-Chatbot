@@ -1,0 +1,17 @@
+[project]
+name = "digital-twin-rag"
+version = "0.1.0"
+description = "Digital Twin chatbot using LangChain RAG, Gemini, Chroma, Gradio and Pushover"
+requires-python = ">=3.12"
+dependencies = [
+    "gradio",
+    "langchain",
+    "langchain-chroma",
+    "langchain-community",
+    "langchain-core",
+    "langchain-google-genai",
+    "langchain-text-splitters",
+    "pypdf",
+    "python-dotenv",
+    "requests",
+]
